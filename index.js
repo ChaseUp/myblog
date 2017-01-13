@@ -59,3 +59,10 @@ routes(app);
 app.listen(config.port,function(){
 	console.log(`${pkg.name} listening on port ${config.port}`);
 });
+
+/*注：一.app.use()：
+ *1.调用中间件
+ *2.根据请求的网址，返回不同的网页内容
+ *
+ *
+*/
